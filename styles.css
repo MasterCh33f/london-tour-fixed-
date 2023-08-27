@@ -1,0 +1,129 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Shippori Antique', sans-serif;
+    }
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/London-cover.jpg");
+    background-size: cover;
+    height: 343px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+H1 {
+    background: #000052; 
+}
+
+h2 {
+    background: #000052;
+}
+
+#title {
+    width: 412px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 119px;
+    padding: 5px 29px 8px 28px;
+}
+
+#Main-title {
+    width: 225px;
+    height: 42px;
+    border-radius: 10px;
+    margin: 119px auto 11px auto;
+    font-size: 34px;
+    padding: 10px 12px 10px 12px;
+    border-bottom: 10px #ed0101 solid;
+
+}
+
+#activities {
+    background-color: #780000;
+    background-size: cover;
+    height: 378px;
+    margin: 0px auto;
+    overflow: auto;
+    color: #fdf0d5;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.icons {
+    border-radius: 50%;
+    margin: 50px 50px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#activity-desc {
+    display: block;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between
+}
+
+p {
+    font-size: 14px;
+
+}
+
+#p-title {
+    font-weight: 700;
+    text-decoration: 2px underline; 
+}
+
+#guide {
+    height: 394px;
+    background-image: url("images/437439.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+
+}
+
+#card {
+    color: #fdf0d5;
+    display: flex;
+    align-items: center;
+    background-color: #c1121f;
+    margin: 0px auto;
+    max-width: 380px;
+    height: 294px;
+    padding: 23px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 6px #780000;
+}
+
+#img-guide {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+
